@@ -1,0 +1,99 @@
+{% extends 'base.html' %}
+
+{% block title %}Fresh Content{% endblock %}
+{% block extra_stryle %}<link rel="stylesheet" href="{{ url_for('static', filename='content.css') }}">{% endblock %}
+{% block content %}
+
+<div class="container">
+    <div class="row my-2">
+        <div class="col-12 g2">
+            <div class="container shadow p-3 bg-body rounded">           
+                <h5 class="text-center">Add Article</h5>
+                <input type="text" id="headlineInp" class="w-100 mb-2 form-control" placeholder="Headline:">
+                <textarea rows=1 class="w-100 mb-2 form-control" id="articleInp" placeholder="Paste Article:"></textarea>
+                <input type="text" id="imageInp" class="w-100 mb-2 form-control" placeholder="Enter Image Link:">
+                <div class="row">
+                    <div class="col w-100 text-center">
+                         <button class="btn btn-md btn-outline-success" id="addNewArticle">Add Article</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-6 col-md-12 col-sm-12">
+            <div class="container p-3 shadow mb-2 bg-body rounded">
+                <h5 class="text-center">Fresh Content</h5>
+                <div class="container overflow-scroll" style="height:26rem;">
+                    <table class="table table-hover table-bordered">
+                        <thead class="header">
+                            <tr>
+                                <th class="bg-dark text-light" scope="col">Score</th>
+                                <th class="bg-dark text-light" scope="col">Title</th>
+                            </tr>
+                        </thead>
+                        <tbody id="articleTBody">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-6 col-md-12 col-sm-12">
+            <div class="container p-3 shadow mb-2 bg-body rounded">
+                <h5 class="text-center">Rewrite Article</h5>
+                <div class="container my-2">
+                    <input type="text" id="article_link_inp" class="w-100 form-control" placeholder="Article Link:">
+                </div>
+            </div>
+
+            <div class="container p-3 shadow mb-2 bg-body rounded">
+                <h5 class="text-center">Generate New Content</h5>
+                <div class="container mt-3">
+                    <div class="row text-center">
+                        <div class="col">
+                            <input type="text" id="subject" class="w-100 mb-2 form-control" placeholder="Enter Topic:">
+                        </div>
+                    </div>
+                </div>
+                <div class="container mt-3">
+                    <h6>Time Frame:</h6>
+                    <div class="row text-center">
+                        <div class="col">
+                            <label class="form-check-label text-black" for="email">Hour</label><br>
+                            <input class="form-check-input" type="checkbox" id="email" name="preferences">
+                        </div>
+                        <div class="col">
+                            <label class="form-check-label text-black" for="text">Day</label><br>
+                            <input class="form-check-input" type="checkbox" id="text" name="preferences">         
+                        </div>
+                        <div class="col">
+                            <label class="form-check-label text-black" for="phone">Week</label><br>
+                            <input class="form-check-input" type="checkbox" id="phone" name="preferences">        
+                        </div>
+                        <div class="col">
+                            <label class="form-check-label text-black" for="whatsapp">Month</label><br>
+                            <input class="form-check-input" type="checkbox" id="whatsapp" name="preferences">     
+                        </div>
+                        <div class="col">
+                            <label class="form-check-label text-black" for="whatsapp">Alltime</label><br>
+                            <input class="form-check-input" type="checkbox" id="whatsapp" name="preferences">     
+                        </div>
+                    </div>
+                </div>
+                <div class="container mt-3">
+                    <div class="row">
+                        <div class="col w-100 text-center">
+                            <button type="button" class="btn btn-md btn-outline-success">Scrape</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+{% endblock %}
+{% block jscript %}<script src="{{url_for('static', filename='content.js')}}"></script> {% endblock %}

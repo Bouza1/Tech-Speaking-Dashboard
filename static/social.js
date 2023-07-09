@@ -1,0 +1,253 @@
+document.addEventListener("DOMContentLoaded", function() {
+    getNewsFromServer();
+})
+
+function getNewsFromServer() {
+    let xhttp = new XMLHttpRequest()
+    xhttp.onreadystatechange = function() {
+        if(xhttp.status == 200 && xhttp.readyState == 4 ) {
+            news = JSON.parse(xhttp.response);
+            for(let i = 0; i < news.length; i++){
+              populateLatestArticleTable(news[i])
+            }
+        }
+    }
+    xhttp.open("GET", "/api/get_live_articles", true);
+    xhttp.send();
+}
+
+function populateLatestArticleTable(article){
+    let tableBody = document.getElementById('tBody')
+    let row = document.createElement('tr')
+    row.setAttribute('id', article['id'])
+    let titleCell = document.createElement('td')
+    titleCell.innerText = article['title']
+    titleCell.setAttribute('id', article['id'])
+    titleCell.addEventListener('click', function(){
+      let redirectUrl = "https://bookingform.s4820791.repl.co/news/article/" + this.id
+      window.open(redirectUrl, '_blank')
+    })
+    row.appendChild(titleCell)
+    
+    let linkedInCell = document.createElement('td')
+    linkedInCell.setAttribute('class', 'align-middle')
+    let linkedInBtn = document.createElement('button')
+    linkedInBtn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-linkedin" viewBox="0 0 16 16"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/></svg>'
+    linkedInBtn.value = "linkedin"
+
+    let instagramCell = document.createElement('td')
+    instagramCell.setAttribute('class', 'align-middle')
+    let instagramBtn = document.createElement('button')
+    instagramBtn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-instagram" viewBox="0 0 16 16"> <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/></svg>'
+    instagramBtn.value = "insta"
+
+    if(!article['linkedin']){
+        linkedInBtn.setAttribute('class', 'btn btn-sm btn-success jsSocialBtn')
+        linkedInBtn.setAttribute('id', article['id'])
+        linkedInCell.appendChild(linkedInBtn)
+        linkedInBtn.addEventListener('click', function(){
+            rewrite_4_social(this.id, this.value)
+        })
+    } else {
+        linkedInBtn.setAttribute('class', 'btn btn-sm btn-danger')
+        linkedInCell.appendChild(linkedInBtn)
+        linkedInBtn.disabled = true
+    }
+    if(!article['instagram']){
+        instagramBtn.setAttribute('class', 'btn btn-sm btn-success jsSocialBtn')
+        instagramBtn.setAttribute('id', article['id'])
+        instagramCell.appendChild(instagramBtn)
+        instagramBtn.addEventListener('click', function(){
+            rewrite_4_social(this.id, this.value)
+        })
+    } else {
+        instagramBtn.setAttribute('class', 'btn btn-sm btn-danger')
+        instagramCell.appendChild(instagramBtn)
+        instagramBtn.disabled = true
+    }
+    row.appendChild(linkedInCell)   
+    row.appendChild(instagramCell)
+    tableBody.appendChild(row)
+}
+
+function destroy_latest_article_table(){
+    let tableBody = document.getElementById('tBody');
+    tableBody.innerHTML = "";
+}
+
+//================================== Rewrite 4 Socials ==================================
+function rewrite_4_social(id, platform){
+    send_id_2_server(id);
+    openModal(platform);
+    loadingAnimation();
+}
+
+function send_id_2_server(id){
+    let xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function(){
+        if(xhttp.status == 200 && xhttp.readyState == 4 ){
+            content = JSON.parse(xhttp.response);
+            onceResponseExecute(content)
+        }
+    };
+    xhttp.open("PUT", "/api/rewrite_4_socials", true);
+    let idJSON = JSON.stringify({"id":id,})
+    xhttp.setRequestHeader("Content-Type", "application/json");
+    xhttp.send(idJSON);
+  }
+  
+function openModal(platform){
+    let myModal = new bootstrap.Modal(document.getElementById('exampleModal'),{keyboard: false, backdrop:'static'})
+    myModal.show();
+    assign_platform_2_post_btn(platform)
+}
+
+function loadingAnimation(){
+    let progressDiv = document.getElementById('progress-holder')
+    let loader = document.createElement('div')
+    loader.setAttribute('class', 'loader')
+    loader.setAttribute('id', 'loader')
+    progressDiv.appendChild(loader)
+}
+
+function onceResponseExecute(response){
+    while(response === ""){
+        // console.log("waiting")
+    }
+    destroyLoadingAnimation();
+    appendContentToModal(response);
+    textAreaAdjust('textInp');
+    showFooter();
+    activate_post_btn();
+}
+  
+function destroyLoadingAnimation(){
+    let loaderDiv = document.getElementById('loader');
+    loaderDiv.parentNode.removeChild(loaderDiv);
+}
+
+function appendContentToModal(response){
+    let modalClose = document.getElementById('modal-close-btn');
+    modalClose.removeAttribute("disabled");
+    let titlee = document.getElementById('modal-title');
+    titlee.innerText = response['title'];   
+    let modalBody = document.getElementById('modal-body');
+    let contentDiv = document.createElement('div');
+    contentDiv.setAttribute('id', 'rewritten-article');
+    contentDiv.setAttribute('class', 'container');
+    let hiddenId = document.createElement('p');
+    hiddenId.setAttribute('id', 'hidden-id');
+    hiddenId.style.display = null;
+    hiddenId.value = response['id'];  
+    let textArea = document.createElement('textarea');
+    textArea.setAttribute('class', 'textarea-modal');
+    textArea.setAttribute('id', 'textInp');
+    textArea.value = response['post'];
+    let img = document.createElement('img');
+    img.setAttribute('class', 'img-fluid img-resize mx-auto d-block');
+    img.setAttribute('id', 'modal-image');
+    img.src = response['imagelink'];
+    contentDiv.appendChild(hiddenId);
+    contentDiv.appendChild(img);
+    contentDiv.appendChild(textArea);
+    modalBody.appendChild(contentDiv);
+    modalClose.addEventListener('click', function() {
+        titlee.innerText = "";
+        modalBody.removeChild(contentDiv);
+        modalClose.setAttribute("disabled", "true");
+        hideFooter();
+     })
+}
+
+function textAreaAdjust(element){
+    let textArea = document.getElementById(element)
+    textArea.style.height = "1px";
+    textArea.style.height = (textArea.scrollHeight);
+}
+
+function showFooter() {
+    let div = document.getElementById("show-hide");
+    div.style.visibility = 'visible';
+}
+  
+function hideFooter() {
+    let div = document.getElementById("show-hide");
+    div.style.visibility = 'hidden'
+}
+
+function assign_platform_2_post_btn(platform){
+    let post_btn = document.getElementById('post_social_btn')
+    post_btn.value = platform
+}
+
+function activate_post_btn(){
+    let post_btn = document.getElementById('post_social_btn')
+    post_btn.addEventListener('click', function(){
+        send_post_2_server(format_post_4_server());
+        closeWipeModal();
+        disable_social_btns();
+    })
+}
+
+//================================== Post 2 Social ==================================
+function format_post_4_server(){
+    let platform = document.getElementById('post_social_btn')
+    let title = document.getElementById('modal-title')
+    let imagelink = document.getElementById('modal-image')
+    let content = document.getElementById('textInp')
+    let id = document.getElementById('hidden-id')
+    let article_link = "https://techspeaking.s4820791.repl.co/news/article/" + id.value
+    let obj = {"id":id.value, "title":title.innerHTML, "article_link":article_link ,"image":imagelink.src, "content":content.value ,"platform":platform.value}
+    return obj
+}
+
+
+function send_post_2_server(post_4_schedule){
+    let xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function(){
+        if(xhttp.status == 200 && xhttp.readyState == 4 ) {
+            message = JSON.parse(xhttp.response);
+            once_posted_execute(message)
+        }
+    };
+    xhttp.open("PUT", "/api/post_article_2_socials", true);
+    let post = JSON.stringify(post_4_schedule)
+    xhttp.setRequestHeader("Content-Type", "application/json");
+    xhttp.send(post);
+}
+
+function closeWipeModal() {
+    let titlee = document.getElementById('modal-title');
+    titlee.innerText = "";
+    let modalBody = document.getElementById('modal-body');
+    let contentDiv = document.getElementById('rewritten-article');
+    modalBody.removeChild(contentDiv);
+    var myModalEl = document.getElementById('exampleModal');
+    var modal = bootstrap.Modal.getInstance(myModalEl);
+    modal.hide();
+    hideFooter();
+}
+
+function once_posted_execute(response){
+    while(response === ""){
+        console.log("Waiting")
+    }
+    alert(response['message'])
+    enable_social_btns();
+    destroy_latest_article_table();
+    getNewsFromServer();
+}
+
+function disable_social_btns(){
+    let social_btns = document.getElementsByClassName('jsSocialBtn');
+    for(let i=0; i<social_btns.length; i++){
+        social_btns[i].disabled = true;
+    }
+}
+
+function enable_social_btns(){
+    let social_btns = document.getElementsByClassName('jsSocialBtn');
+    for(let i=0; i<social_btns.length; i++){
+        social_btns[i].disabled = false;
+    }
+}

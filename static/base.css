@@ -1,0 +1,12 @@
+.text-white{
+  margin-top:1rem;
+  margin-bottom:1rem;
+  color:whitesmoke;
+}
+
+.border-top{
+  margin:0.2rem;
+  padding-top:0.7rem;
+  padding-bottom:0.5rem;
+}
+

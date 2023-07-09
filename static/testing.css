@@ -1,0 +1,18 @@
+#results-results_table_container{
+    overflow:auto;
+    height:18rem;
+    color:red;
+}
+
+#good-result{
+    background-color:#d1e7dd;
+}
+
+#bad-result{
+    background-color:#f8d7da;
+}
+
+
+#alert{
+    display:none;
+}

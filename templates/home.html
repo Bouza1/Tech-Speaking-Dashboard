@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Admin{% endblock %}
+{% block extra_stryle %}<link rel="stylesheet" href="{{ url_for('static', filename='admin_dashboard.css') }}">{% endblock %}
+{% block content %}
+<div class ="container">
+    <div class="row">
+        <div class="col-6">
+            <a href="{{ url_for('testing_page') }}"><button class="btn btn-lg btn-outline-success">Testing Suite</button></a>
+        </div>
+        <div class="col-6">
+            <button class="btn btn-lg btn-outline-success">Fresh Content</button>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block jscript %} {% endblock %}

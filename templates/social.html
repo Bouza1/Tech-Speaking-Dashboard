@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% block title %}Fresh Content{% endblock %}
+{% block extra_stryle %}<link rel="stylesheet" href="{{ url_for('static', filename='social.css') }}">{% endblock %}
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-xl-8 col-md-12 col-sm-12">
+            <div class="container p-3 shadow my-2 rounded">
+                <h5 class="text-center">Live Articles</h5>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Article</th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody id="tBody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal" tabindex="-1" id="exampleModal">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title" contenteditable="true"></h5>
+                <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal" id="modal-close-btn" disabled>
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-x-circle" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+                </button>
+            </div>
+            <div class="modal-body" id="modal-body">
+                <div id="progress-holder"></div>
+            </div>
+            <div class="modal-footer">
+                <div id="show-hide">
+                    <button type="button" class="btn btn-md btn-outline-info" id="post_social_btn">Post</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
+{% block jscript %}<script src="{{url_for('static', filename='social.js')}}"></script> {% endblock %}
