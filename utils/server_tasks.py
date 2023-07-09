@@ -10,7 +10,7 @@ def task_2_run():
   
 def construct_scheduler():
   sched = BackgroundScheduler(daemon=True)
-  sched.add_job(task_2_run, "interval", minutes = 10)
+  sched.add_job(task_2_run, "interval", minutes = 60)
   return sched
 
 def append2Json(article, filename):
