@@ -138,28 +138,3 @@ def return_object_using_id(id):
   return article
 
 app.run(host='0.0.0.0', port=81)
-
-
-
-
-# @app.route("/api/admin/schedule_post", methods=['PUT', 'GET'])
-# def schedule_post():
-#   if request.is_json:
-#     print(request)
-#     site_root = os.path.realpath(os.path.dirname(__file__))
-#     json_url = os.path.join(site_root, "data", "temp.json")
-#     json_object = request.get_json()
-#     append_2_temp_file(json_object, json_url)
-#     # # update_live_articles(json_object['id'], json_url2)
-#     return {"message":"Success"}
-#   else:
-#     return {"message":"Error Scheduling Post"}
-
-#     return render_template('index.html')
-
-
-# @app.route("/api/admin/download_schedule", methods=['POST'])
-# def download_schedule():
-#   if request.method == 'POST':
-#     path = os.path.join(os.getcwd(), 'data/temp.json')
-#     return send_file(path, as_attachment=True)

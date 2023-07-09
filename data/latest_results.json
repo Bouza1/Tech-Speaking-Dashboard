@@ -305,10 +305,22 @@
             "date": "07/08/2023",
             "scenario": "Pages",
             "status": "Passed"
+        },
+        {
+            "test_id": 52,
+            "date": "07/09/2023",
+            "scenario": "Pages",
+            "status": "Passed"
+        },
+        {
+            "test_id": 53,
+            "date": "07/09/2023",
+            "scenario": "Pages",
+            "status": "Passed"
         }
     ],
     "last_ran": {
-        "pages": "07/08/2023",
+        "pages": "07/09/2023",
         "repair": "07/06/2023",
         "footer": "07/02/2023",
         "users_funcs": "06/02/2023"

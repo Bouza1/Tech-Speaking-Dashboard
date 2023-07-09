@@ -1,6 +1,6 @@
 import praw
 import os
-
+ 
 def scrape_articles(sub, time, upvoteScore):
     reddit = praw.Reddit(
         client_id= os.getenv('RED_CLIENT_ID'),
@@ -40,7 +40,7 @@ def scrape_memes(sub, time, upvote_score):
 
 
 def fullscrape():
-    scrape_array = [scrape_articles("technews","day", 10),scrape_articles("tech", "day", 50),scrape_articles("Futurology", "day", 150), scrape_articles("technology", "day", 150), scrape_articles("computers", "day", 100), scrape_articles("hardware", "day", 100)]
+    scrape_array = [scrape_articles("technews","week", 100),scrape_articles("tech", "week", 300), scrape_articles("technology", "day", 150), scrape_articles("computers", "day", 100), scrape_articles("hardware", "day", 100),  scrape_articles("Futurology", "day", 150)]
     merged_scrape_list = []
     for scrape in scrape_array:
         merged_scrape_list += scrape['articles']

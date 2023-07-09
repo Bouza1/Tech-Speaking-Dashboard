@@ -160,10 +160,3 @@ def full_script_li(article, cookie):
 #     loadSite("twitter")
 #     time.sleep(5)
 #     postArticleTW(title, article)
-
-# # ------------- Others ------------- #
-# def openArticleBrowser(url2Open):
-#     global driver
-
-#     driver.get(url2Open)
-
