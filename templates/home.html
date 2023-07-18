@@ -1,15 +1,19 @@
 {% extends 'base.html' %}
 
 {% block title %}Admin{% endblock %}
-{% block extra_stryle %}<link rel="stylesheet" href="{{ url_for('static', filename='admin_dashboard.css') }}">{% endblock %}
+{% block extra_stryle %}<link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">{% endblock %}
 {% block content %}
-<div class ="container">
-    <div class="row">
-        <div class="col-6">
-            <a href="{{ url_for('testing_page') }}"><button class="btn btn-lg btn-outline-success">Testing Suite</button></a>
+<div class="container-fluid h-100">
+    <div class="row h-100 align-items-center justify-content-center">
+        <div class="col-10 d-flex justify-content-center mt-3">
+            <a href="{{ url_for('testing_page') }}"><button class="btn btn-danger btn-block text-white custom-button mx-3">Testing Suite</button></a>
+            <a href="{{ url_for('website_page') }}"><button class="btn btn-primary btn-block text-white custom-button mx-3">Website Content</button></a>
         </div>
-        <div class="col-6">
-            <button class="btn btn-lg btn-outline-success">Fresh Content</button>
+    </div>
+    <div class="row h-100 align-items-center justify-content-center">
+        <div class="col-10 d-flex justify-content-center mt-3">
+            <a href="{{ url_for('social_page') }}"><button class="btn btn-success btn-block text-white custom-button mx-3">Social Media</button></a>
+            <a href="{{url_for('content_engine_page')}}"><button class="btn btn-warning btn-block text-white custom-button mx-3">Content Engine v4</button></a>
         </div>
     </div>
 </div>

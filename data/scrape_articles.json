@@ -1,304 +1,517 @@
 {
     "articles": [
         {
-            "title": "Meta\u2019s Threads Has 70 Million Signups, Surprising Zuckerberg",
-            "link": "https://www.bloomberg.com/news/articles/2023-07-07/meta-s-threads-has-70-million-signups-surprising-zuckerberg?srnd=technology-vp",
-            "score": 3014,
-            "sub": "technews"
+            "title": "Anonymous puts Taiwan flag, national anthem on 2 UN websites",
+            "link": "https://www.taiwannews.com.tw/en/news/4946597",
+            "sub_score": 192,
+            "sub": "technology",
+            "time": 6.045286967222223,
+            "subscribers": 14477540,
+            "score": 12473
         },
         {
-            "title": "US set to restrict China's access to cloud computing",
-            "link": "https://www.reuters.com/technology/us-set-restrict-chinas-access-cloud-computing-wsj-2023-07-04/",
-            "score": 2356,
-            "sub": "technews"
+            "title": "An Original, Factory-Sealed, 4GB iPhone Just Sold at Auction for Over $190,000",
+            "link": "https://gizmodo.com/original-sealed-iphone-sells-auction-190-000-dollars-1850647037",
+            "sub_score": 183,
+            "sub": "technology",
+            "time": 17.360009189444444,
+            "subscribers": 14477540,
+            "score": 4557
         },
         {
-            "title": "See China\u2019s Abandoned EV Graveyard: Thousands Of Cars Rot In Huge Fields",
-            "link": "https://insideevs.com/news/672926/china-abandoned-electric-car-graveyard-byd-geely/",
-            "score": 2320,
-            "sub": "technews"
+            "title": "Most Tinder users are already in a relationship, new survey finds",
+            "link": "https://www.nbcnews.com/news/rcna94163",
+            "sub_score": 257,
+            "sub": "technology",
+            "time": 13.420564745,
+            "subscribers": 14477540,
+            "score": 4197
         },
         {
-            "title": "France set to allow police to spy through phones. French lawmakers agreed to a justice reform bill that includes a provision granting police the power to get suspects' geolocation through phones and other devices.",
-            "link": "https://www.lemonde.fr/en/france/article/2023/07/06/france-set-to-allow-police-to-spy-through-phones_6044269_7.html",
-            "score": 1759,
-            "sub": "technews"
+            "title": "Eli Lilly drug shown to slow Alzheimer\u2019s progression",
+            "link": "https://arstechnica.com/health/2023/07/eli-lilly-drug-shown-to-slow-alzheimers-progression/",
+            "sub_score": 360,
+            "sub": "technology",
+            "time": 12.161953633888889,
+            "subscribers": 14477540,
+            "score": 3306
         },
         {
-            "title": "China Restricts Export of Chipmaking Metals in Clash with US",
-            "link": "https://www.bloomberg.com/news/articles/2023-07-03/china-to-restrict-exports-of-metals-critical-to-chip-production?sref=ExbtjcSG",
-            "score": 1713,
-            "sub": "technews"
+            "title": "Teenage GTA 6 Hacker Accused of Blackmailing Rockstar With Releasing Sequel's Source Code | Rockstar's anticipated sequel has struggled with hacking.",
+            "link": "https://www.ign.com/articles/teenage-gta-6-hacker-rockstar-blackmail",
+            "sub_score": 308,
+            "sub": "technology",
+            "time": 14.579453633888889,
+            "subscribers": 14477540,
+            "score": 3224
         },
         {
-            "title": "Reddit mods fear spam overload as BotDefense leaves \u201cantagonistic\u201d Reddit",
-            "link": "https://arstechnica.com/gadgets/2023/07/reddit-mods-fear-spam-overload-as-botdefense-leaves-antagonistic-reddit/",
-            "score": 1662,
-            "sub": "technews"
+            "title": "Christopher Nolan Wants Oppenheimer To Be A Cautionary Tale For Silicon Valley",
+            "link": "https://www.theverge.com/2023/7/16/23796659/christopher-nolan-oppenheimer-ai-warning-silicon-valley",
+            "sub_score": 417,
+            "sub": "technology",
+            "time": 12.882231411666668,
+            "subscribers": 14477540,
+            "score": 2695
         },
         {
-            "title": "Google's policy update confirms that all your posted content will be utilized for AI training",
-            "link": "https://www.techspot.com/news/99281-google-policy-update-confirms-itll-scrape-everything-you.html",
-            "score": 1263,
-            "sub": "technews"
+            "title": "Recycling mismanaged plastic waste in South and Southeast Asia could reduce GHG emissions by 229 million tonnes",
+            "link": "https://www.circularonline.co.uk/news/recycling-mismanaged-plastic-waste-in-south-and-southeast-asia-could-reduce-ghg-emissions-by-229-million-tonnes/",
+            "sub_score": 250,
+            "sub": "technology",
+            "time": 24.578342522777778,
+            "subscribers": 14477540,
+            "score": 2356
         },
         {
-            "title": "A flying car prototype just got an airworthiness certificate from the FAA",
-            "link": "https://edition.cnn.com/2023/07/03/tech/flying-car-faa/index.html",
-            "score": 1253,
-            "sub": "technews"
+            "title": "Tesla board to return $735 million in stock awards to end lawsuit",
+            "link": "https://www.autoblog.com/2023/07/17/tesla-board-to-return-735-million-in-stock-awards-to-end-lawsuit/",
+            "sub_score": 669,
+            "sub": "technology",
+            "time": 14.075286967222223,
+            "subscribers": 14477540,
+            "score": 1537
         },
         {
-            "title": "OpenAI is forming a team to rein in superintelligent AI",
-            "link": "https://www.engadget.com/openai-is-forming-a-team-to-rein-in-superintelligent-ai-214333388.html",
-            "score": 977,
-            "sub": "technews"
+            "title": "RDNA 3 Updates: Adrenalin, FSR & ML",
+            "link": "https://medium.com/@opinali/rdna-3-updates-adrenalin-fsr-ml-2f071038f6e6",
+            "sub_score": 135,
+            "sub": "hardware",
+            "time": 16.48335113527778,
+            "subscribers": 3296481,
+            "score": 1481
         },
         {
-            "title": "AMAs are the latest casualty in Reddit\u2019s API war",
-            "link": "https://arstechnica.com/gadgets/2023/07/fed-up-with-reddit-mods-of-popular-amas-quit-organizing-high-profile-interviews/",
-            "score": 949,
-            "sub": "technews"
+            "title": "Hyundai Motors Announces Intent to Share Tesla Charging Infrastructure",
+            "link": "http://www.businesskorea.co.kr/news/articleView.html?idxno=118435",
+            "sub_score": 664,
+            "sub": "technology",
+            "time": 20.88417585611111,
+            "subscribers": 14477540,
+            "score": 1044
         },
         {
-            "title": "Going deep with the Book 8088, the brand-new laptop that runs like it\u2019s 1981",
-            "link": "https://arstechnica.com/?p=1943551",
-            "score": 880,
-            "sub": "technews"
+            "title": "'Millions' of sensitive US military emails were reportedly sent to Mali due to a typo",
+            "link": "https://www.theverge.com/2023/7/17/23797379/mali-ml-typo-us-military-emails-leak",
+            "sub_score": 815,
+            "sub": "technology",
+            "time": 19.127509189444442,
+            "subscribers": 14477540,
+            "score": 928
         },
         {
-            "title": "University of Washington researchers develop smaller, cheaper form of LiDAR technology",
-            "link": "https://www.geekwire.com/2023/university-of-washington-researchers-develop-smaller-cheaper-form-of-lidar-technology/",
-            "score": 858,
-            "sub": "technews"
+            "title": "Vibrating haptic suits give deaf people a new way to feel live music",
+            "link": "https://www.npr.org/2023/07/17/1186173942/vibrating-haptic-suits-give-deaf-people-a-new-way-to-feel-live-music",
+            "sub_score": 1055,
+            "sub": "technology",
+            "time": 23.255009189444444,
+            "subscribers": 14477540,
+            "score": 590
         },
         {
-            "title": "Artificial Muscles Flex for the First Time: Ferroelectric Polymer Innovation in Robotics",
-            "link": "https://scitechdaily.com/artificial-muscles-flex-for-the-first-time-ferroelectric-polymer-innovation-in-robotics/",
-            "score": 823,
-            "sub": "technews"
+            "title": "Comcast advertising \u201c10G\u201d in hopes to confuse consumers to accept slower speeds",
+            "link": "https://www.pcworld.com/article/1662111/10g-doesnt-mean-what-you-think.html",
+            "sub_score": 2337,
+            "sub": "technology",
+            "time": 14.701398078333334,
+            "subscribers": 14477540,
+            "score": 421
         },
         {
-            "title": "The 2024 Rolls-Royce Spectre proves EVs make the best luxury cars",
-            "link": "https://arstechnica.com/?p=1951525",
-            "score": 667,
-            "sub": "technews"
+            "title": "FBI Used Nintendo Switch To Locate Abducted Child",
+            "link": "https://kotaku.com/nintendo-switch-fbi-abduct-missing-child-ip-youtube-1850647227",
+            "sub_score": 2380,
+            "sub": "technology",
+            "time": 17.854731411666666,
+            "subscribers": 14477540,
+            "score": 340
         },
         {
-            "title": "Mercedes-Benz picks Tesla&#x27;s charging standard for North America EVs from 2025",
-            "link": "https://www.reuters.com/business/autos-transportation/mercedes-benz-drivers-n-america-get-access-tesla-superchargers-2024-2023-07-07/",
-            "score": 618,
-            "sub": "technews"
+            "title": "Reddit nukes everyone\u2019s pre-2023 chats and messages",
+            "link": "https://www.androidpolice.com/reddit-deleted-pre-2023-chat-messages/",
+            "sub_score": 4270,
+            "sub": "technology",
+            "time": 15.805009189444444,
+            "subscribers": 14477540,
+            "score": 214
         },
         {
-            "title": "PS5 Slim rumored release date, price, design and more",
-            "link": "https://www.tomsguide.com/news/ps5-slim",
-            "score": 607,
-            "sub": "technews"
+            "title": "How long will the last Intel Macs be supported? macOS Sonoma gives us some hints",
+            "link": "https://arstechnica.com/?p=1944177",
+            "sub_score": 341,
+            "sub": "technews",
+            "time": 20.442147598055556,
+            "subscribers": 680536,
+            "score": 97
         },
         {
-            "title": "Firefox to drop support for macOS Mojave and older versions",
-            "link": "https://9to5mac.com/2023/07/04/firefox-support-older-macos/",
-            "score": 550,
-            "sub": "technews"
+            "title": "Meta faces a $100,000 daily fine if it doesn't fix privacy issues in Norway | 'It is so clear that this is illegal that we need to intervene now and immediately.'",
+            "link": "https://www.engadget.com/meta-facing-a-100000-daily-fine-if-it-doesnt-fix-privacy-issues-in-norway-102557370.html",
+            "sub_score": 6715,
+            "sub": "technology",
+            "time": 23.525286967222222,
+            "subscribers": 14477540,
+            "score": 91
         },
         {
-            "title": "Actively exploited vulnerability threatens hundreds of solar power stations",
-            "link": "https://arstechnica.com/?p=1951780",
-            "score": 515,
-            "sub": "technews"
+            "title": "Facebook, Instagram face Norwegian ban from tracking users for ads",
+            "link": "https://www.politico.eu/article/facebook-instagram-norway-ban-track-users-ads/",
+            "sub_score": 512,
+            "sub": "technews",
+            "time": 16.92548093138889,
+            "subscribers": 680536,
+            "score": 78
         },
         {
-            "title": "The $100 billion bet that a postindustrial US city can reinvent itself as a high-tech hub",
-            "link": "https://www.technologyreview.com/2023/07/06/1075817/micron-syracuse-chips-economic-development-technology/",
-            "score": 431,
-            "sub": "technews"
+            "title": "Amazon Told Drivers Not to Worry About In-Van Surveillance Cameras. Now Footage Is Leaking Online",
+            "link": "https://www.vice.com/en_us/article/v7b3gj/amazon-told-drivers-not-to-worry-about-in-van-surveillance-cameras-now-footage-is-leaking-online",
+            "sub_score": 10913,
+            "sub": "technology",
+            "time": 18.693479745,
+            "subscribers": 14477540,
+            "score": 70
         },
         {
-            "title": "Europe must act against AI-written reviews before it\u2019s too late",
-            "link": "https://thenextweb.com/news/europe-must-act-against-ai-written-reviews-before-too-late",
-            "score": 372,
-            "sub": "technews"
+            "title": "This baboon is the first to receive a heart transplant from a young gene-edited pig as part of a study that should pave the way for similar transplants in human babies, says Katz, chief medical officer at the biotech company eGenesis.",
+            "link": "https://www.technologyreview.com/2023/07/17/1076392/this-company-plans-to-transplant-pig-hearts-into-babies-next-year/",
+            "sub_score": 696,
+            "sub": "tech",
+            "time": 12.782258635277778,
+            "subscribers": 575694,
+            "score": 64
         },
         {
-            "title": "Android spyware with over 1.5 million downloads sends your data to China \u2014 delete these apps right now",
-            "link": "https://www.tomsguide.com/news/android-spyware-with-over-15-million-downloads-sends-your-data-to-china-delete-these-apps-right-now",
-            "score": 296,
-            "sub": "technews"
+            "title": "Redditors are raging about ditching thank-you coins and awards for something 'more valuable'",
+            "link": "https://www.businessinsider.com/reddit-ditches-coins-awards-users-not-happy-2023-7",
+            "sub_score": 161,
+            "sub": "technews",
+            "time": 67.80353648694445,
+            "subscribers": 680536,
+            "score": 62
         },
         {
-            "title": "Fairphone's repairable smartphone goes on sale in US for the first time -- in a 'deGoogled' Murena e/OS variant",
-            "link": "https://techcrunch.com/2023/07/05/fairphones-repairable-smartphone-goes-on-sale-in-us-for-the-first-time-in-a-degoogled-murena-e-os-variant/",
-            "score": 275,
-            "sub": "technews"
+            "title": "Sony plans to boost game R&D spending this year as competition ramps up | It's reportedly focusing research on live service Fortnite-style games and mixed reality.",
+            "link": "https://www.engadget.com/sony-plans-to-boost-game-rd-spending-this-year-as-competition-ramps-up-110524111.html",
+            "sub_score": 110,
+            "sub": "technews",
+            "time": 119.03298093138888,
+            "subscribers": 680536,
+            "score": 51
         },
         {
-            "title": "Volkswagen is launching its own self-driving car testing program in the U.S.",
-            "link": "https://www.digitaltrends.com/cars/volkswagen-testing-self-driving-cars-in-us/?utm_source=reddit&utm_medium=pe&utm_campaign=pd",
-            "score": 291,
-            "sub": "technews"
+            "title": "100x Faster Than Wi-Fi: Li-Fi, Light-Based Networking Standard Released",
+            "link": "https://www.tomshardware.com/news/li-fi-standard-released",
+            "sub_score": 186,
+            "sub": "technews",
+            "time": 76.54131426472222,
+            "subscribers": 680536,
+            "score": 47
         },
         {
-            "title": "Amazon\u2019s iRobot Roomba acquisition under formal EU investigation",
-            "link": "https://www.theverge.com/2023/7/6/23628636/eu-regulators-amazon-irobot-roomba-acquisition-investigation",
-            "score": 259,
-            "sub": "technews"
+            "title": "Apple introduces bilingual Siri and a full page screenshot feature with iOS 17",
+            "link": "https://techcrunch.com/2023/07/12/apple-introduces-bilingual-siri-and-a-full-page-screenshot-feature-with-ios-17/",
+            "sub_score": 121,
+            "sub": "technews",
+            "time": 121.58853648694443,
+            "subscribers": 680536,
+            "score": 46
         },
         {
-            "title": "Google Will Use Your Data to Train Their AI According to Updated Privacy Policy",
-            "link": "https://www.techpowerup.com/310803/google-will-use-your-data-to-train-their-ai-according-to-updated-privacy-policy",
-            "score": 229,
-            "sub": "technews"
+            "title": "Tesla builds first Cybertruck after two years of delays",
+            "link": "https://www.reuters.com/business/autos-transportation/tesla-builds-first-cybertruck-after-two-years-delays-2023-07-15/",
+            "sub_score": 236,
+            "sub": "technews",
+            "time": 66.6979809313889,
+            "subscribers": 680536,
+            "score": 43
         },
         {
-            "title": "Toyota claims battery breakthrough in potential boost for electric cars",
-            "link": "https://www.theguardian.com/business/2023/jul/04/toyota-claims-battery-breakthrough-electric-cars",
-            "score": 226,
-            "sub": "technews"
+            "title": "Senior Adviser to the Operator of the Silk Road Online Black Market Sentenced to 20 Years in Prison - HS Today",
+            "link": "https://www.hstoday.us/federal-pages/doj/senior-adviser-to-the-operator-of-the-silk-road-online-black-market-sentenced-to-20-years-in-prison/",
+            "sub_score": 162,
+            "sub": "technews",
+            "time": 106.13436982027777,
+            "subscribers": 680536,
+            "score": 39
         },
         {
-            "title": "Metaverse has set off no alarms or need for controls yet - EU's Vestager",
-            "link": "https://www.reuters.com/technology/vestager-says-no-concerns-about-metaverse-sees-no-regulation-yet-2023-07-06/",
-            "score": 179,
-            "sub": "technews"
+            "title": "PlayStation\u2019s Slick 'Access' Controller to Be Available by Christmas",
+            "link": "https://gizmodo.com/playstation-access-controller-release-date-price-1850637643#replies",
+            "sub_score": 172,
+            "sub": "technews",
+            "time": 103.23964759805556,
+            "subscribers": 680536,
+            "score": 38
         },
         {
-            "title": "Alien technology or natural phenomenon? Interstellar meteor material discovered",
-            "link": "https://www.techspot.com/news/99328-alien-technology-or-natural-phenomenon-interstellar-meteor-material.html",
-            "score": 152,
-            "sub": "technews"
+            "title": "Apple confirms WebKit security updates break browsing on some sites",
+            "link": "https://www.bleepingcomputer.com/news/security/apple-confirms-webkit-security-updates-break-browsing-on-some-sites/",
+            "sub_score": 127,
+            "sub": "technews",
+            "time": 147.8879809313889,
+            "subscribers": 680536,
+            "score": 36
         },
         {
-            "title": "Car buyers considering an EV have more options thanks to a weird loophole in the law",
-            "link": "https://www.freep.com/story/money/cars/general-motors/2023/07/07/an-unusual-loophole-helps-car-buyers-get-into-a-new-ev-for-less-money/70370904007/",
-            "score": 113,
-            "sub": "technews"
+            "title": "Reddit removes years of chat and message archives from users' accounts",
+            "link": "https://mashable.com/article/reddit-removes-live-chat-archives-messages",
+            "sub_score": 229,
+            "sub": "technews",
+            "time": 86.10631426472222,
+            "subscribers": 680536,
+            "score": 34
         },
         {
-            "title": "Toyota claims battery breakthrough in potential boost for electric cars",
-            "link": "https://www.theguardian.com/business/2023/jul/04/toyota-claims-battery-breakthrough-electric-cars",
-            "score": 2713,
-            "sub": "tech"
+            "title": "Gurman: First M3 Apple Silicon Macs likely to launch in October",
+            "link": "https://9to5mac.com/2023/07/16/m3-apple-silicon-mac-october/",
+            "sub_score": 447,
+            "sub": "technews",
+            "time": 45.75548093138889,
+            "subscribers": 680536,
+            "score": 33
         },
         {
-            "title": "Plasma-based noise cancellation could silence rooms, cars and planes",
-            "link": "https://newatlas.com/technology/ionized-air-noise-reduction/",
-            "score": 2616,
-            "sub": "tech"
+            "title": "Why AI detectors think the US Constitution was written by AI",
+            "link": "https://arstechnica.com/?p=1932658",
+            "sub_score": 282,
+            "sub": "technews",
+            "time": 75.62770315361111,
+            "subscribers": 680536,
+            "score": 31
         },
         {
-            "title": "Researchers are trying to \"trick nature\" by creating an artificial womb for premature babies. The artificial placenta prototype recreates a protective environment with a translucent container made of biocompatible material inside which the foetus' lungs, intestines & brain can continue to develop.",
-            "link": "https://www.reuters.com/business/healthcare-pharmaceuticals/spanish-researchers-aim-trick-nature-with-artificial-womb-2023-06-29/",
-            "score": 2318,
-            "sub": "tech"
+            "title": "Sony agrees to 10-year Call of Duty deal with Microsoft",
+            "link": "https://www.theverge.com/2023/7/16/23792215/sony-microsoft-call-of-duty-cod-deal-signed",
+            "sub_score": 856,
+            "sub": "technews",
+            "time": 29.124369820277778,
+            "subscribers": 680536,
+            "score": 27
         },
         {
-            "title": "How Remote Sensing Technologies Increase Food Production A Purdue professor\u2019s system helps make crops resilient against pests",
-            "link": "https://spectrum.ieee.org/remote-sensing-technologies-increasing-crops",
-            "score": 1216,
-            "sub": "tech"
+            "title": "Apps with 1.5M installs on Google Play send your data to China",
+            "link": "https://www.bleepingcomputer.com/news/security/apps-with-15m-installs-on-google-play-send-your-data-to-china/",
+            "sub_score": 511,
+            "sub": "technews",
+            "time": 52.02686982027778,
+            "subscribers": 680536,
+            "score": 25
         },
         {
-            "title": "Inside a high-tech cement laboratory. Scientists at startup Sublime Systems want to fix one of our biggest climate nightmares.",
-            "link": "https://www.technologyreview.com/2023/07/06/1075937/inside-a-high-tech-cement-laboratory/",
-            "score": 941,
-            "sub": "tech"
+            "title": "Asus Confirms Thermal Stress Is Killing the ROG Ally SD Card Reader",
+            "link": "https://www.pcmag.com/news/asus-confirms-thermal-stress-is-killing-the-rog-ally-sd-card-reader",
+            "sub_score": 218,
+            "sub": "technews",
+            "time": 124.00270315361111,
+            "subscribers": 680536,
+            "score": 25
         },
         {
-            "title": "Artificial Muscles Flex for the First Time: Ferroelectric Polymer Innovation in Robotics",
-            "link": "https://scitechdaily.com/artificial-muscles-flex-for-the-first-time-ferroelectric-polymer-innovation-in-robotics/",
-            "score": 332,
-            "sub": "tech"
+            "title": "A New Job for Electric Vehicles: Powering Homes During Blackouts",
+            "link": "https://www.nytimes.com/2023/07/16/business/energy-environment/electric-vehicles-backup-power.html",
+            "sub_score": 1737,
+            "sub": "technews",
+            "time": 18.89520315361111,
+            "subscribers": 680536,
+            "score": 20
         },
         {
-            "title": "French government wants the power to block social media and to tap into cellphones",
-            "link": "https://www.businessinsider.com/macron-france-social-media-phone-gps-camera-curb-protests-2023-7",
-            "score": 5549,
-            "sub": "technology"
+            "title": "Intel is quitting on its adorable, powerful, and upgradable mini NUC computers",
+            "link": "https://www.theverge.com/2023/7/11/23790956/intel-nuc-compact-pc-discontinued",
+            "sub_score": 305,
+            "sub": "technews",
+            "time": 123.80325870916666,
+            "subscribers": 680536,
+            "score": 18
         },
         {
-            "title": "2 authors say OpenAI 'ingested' their books to train ChatGPT. Now they're suing, and a 'wave' of similar court cases may follow.",
-            "link": "https://www.businessinsider.com/openai-copyright-lawsuit-authors-chatgpt-trained-on-books-2023-7",
-            "score": 5727,
-            "sub": "technology"
+            "title": "Founder of crypto lender Celsius Network pleads not guilty to fraud charges",
+            "link": "https://www.reuters.com/markets/us-sec-sues-celsius-network-its-founder-2023-07-13/",
+            "sub_score": 356,
+            "sub": "technews",
+            "time": 110.41881426472222,
+            "subscribers": 680536,
+            "score": 17
         },
         {
-            "title": "Suspended Twitter account tracking Elon Musk's jet moves to Threads",
-            "link": "https://www.reuters.com/technology/suspended-twitter-account-tracking-elon-musks-jet-moves-rival-metas-threads-2023-07-08/",
-            "score": 4955,
-            "sub": "technology"
+            "title": "Ransomware attacks have spiked massively compared to 2022",
+            "link": "https://www.digitaltrends.com/computing/ransomware-profits-huge-spike-versus-2022/",
+            "sub_score": 409,
+            "sub": "technews",
+            "time": 107.30575870916667,
+            "subscribers": 680536,
+            "score": 15
         },
         {
-            "title": "\u2018It was an accident\u2019: the scientists who have turned humid air into renewable power",
-            "link": "https://www.theguardian.com/science/2023/jul/02/it-was-an-accident-the-scientists-who-have-turned-humid-air-into-renewable-power",
-            "score": 3858,
-            "sub": "technology"
+            "title": "Tax prep companies shared private taxpayer data with Google and Meta for years, congressional probe finds",
+            "link": "https://www.cnn.com/2023/07/12/tech/tax-prep-companies-taxpayer-data-google-meta",
+            "sub_score": 328,
+            "sub": "technews",
+            "time": 139.74631426472223,
+            "subscribers": 680536,
+            "score": 14
         },
         {
-            "title": "France Passes New Bill Allowing Police to Remotely Activate Cameras on Citizens' Phones",
-            "link": "https://gizmodo.com/france-bill-allows-police-access-phones-camera-gps-1850609772",
-            "score": 3510,
-            "sub": "technology"
+            "title": "New York City taxis fight for survival against Uber and Lyft",
+            "link": "https://www.cnbc.com/2023/07/15/new-york-city-taxis-fight-for-survival-against-uber-and-lyft.html",
+            "sub_score": 1493,
+            "sub": "technews",
+            "time": 38.977425375833334,
+            "subscribers": 680536,
+            "score": 11
         },
         {
-            "title": "The USAF's New THOR Energy Weapon Demonstrates Its Effectiveness Against Drones",
-            "link": "https://taskandpurpose.com/tech-tactics/air-force-thor-directed-energy-drone-swarm-test/",
-            "score": 941,
-            "sub": "technology"
+            "title": "World's Largest Nuclear Fusion Rocket Engine Begins Construction",
+            "link": "https://www.sciencealert.com/worlds-largest-nuclear-fusion-rocket-engine-begins-construction",
+            "sub_score": 788,
+            "sub": "technews",
+            "time": 74.10631426472222,
+            "subscribers": 680536,
+            "score": 11
         },
         {
-            "title": "Far-right figures, including Nazi supporters, anti-gay extremists, and white supremacists, are flocking to Threads",
-            "link": "https://www.mediamatters.org/facebook/far-right-figures-including-nazi-supporters-anti-gay-extremists-and-white-supremacists-are",
-            "score": 881,
-            "sub": "technology"
+            "title": "Israeli defense forces employ more AI weapons systems in reinvention of warfare | The country's AI systems can select targets and assemble raids",
+            "link": "https://www.techspot.com/news/99414-israeli-defense-forces-employ-more-ai-systems-reinvent.html",
+            "sub_score": 1496,
+            "sub": "tech",
+            "time": 37.729087874166666,
+            "subscribers": 575694,
+            "score": 10
         },
         {
-            "title": "ChatGPT users drop for the first time as people turn to uncensored chatbots",
-            "link": "https://arstechnica.com/tech-policy/2023/07/chatgpts-user-base-shrank-after-openai-censored-harmful-responses/",
-            "score": 851,
-            "sub": "technology"
+            "title": "Digital Twins Give Hydrogen a Greener Path to Growth. Nano-monitoring and predictive software boost electrolyzer efficiency",
+            "link": "https://spectrum.ieee.org/green-hydrogen-digital-twins",
+            "sub_score": 787,
+            "sub": "tech",
+            "time": 69.20003641305556,
+            "subscribers": 575694,
+            "score": 10
         },
         {
-            "title": "In \u2013 or out? Wimbledon considers replacing line judges with AI",
-            "link": "https://www.theguardian.com/sport/2023/jul/07/in-or-out-wimbledon-considers-replacing-line-judges-with-ai-tennis",
-            "score": 372,
-            "sub": "technology"
+            "title": "Reddit removed your chat history from before 2023",
+            "link": "https://www.theverge.com/2023/7/15/23795883/reddit-chat-history-removed-protest-blackout-new-architecture",
+            "sub_score": 1415,
+            "sub": "technews",
+            "time": 58.49548093138889,
+            "subscribers": 680536,
+            "score": 8
         },
         {
-            "title": "Supercomputer makes calculations in blink of an eye that take rivals 47 years",
-            "link": "https://www.telegraph.co.uk/business/2023/07/02/google-quantum-computer-breakthrough-instant-calculations/",
-            "score": 335,
-            "sub": "technology"
+            "title": "Sugar-fueled flow battery could transform renewable energy storage",
+            "link": "https://www.techspot.com/news/99364-sugar-fueled-flow-battery-could-transform-renewable-energy.html",
+            "sub_score": 532,
+            "sub": "technews",
+            "time": 144.39936982027777,
+            "subscribers": 680536,
+            "score": 8
         },
         {
-            "title": "Android spyware with over 1.5 million downloads sends your data to China",
-            "link": "https://www.yahoo.com/lifestyle/android-spyware-over-1-5-161558685.html",
-            "score": 247,
-            "sub": "technology"
+            "title": "New Biosensor Offers Real-Time Dialysis Feedback",
+            "link": "https://spectrum.ieee.org/dialysis",
+            "sub_score": 864,
+            "sub": "tech",
+            "time": 106.53614752416667,
+            "subscribers": 575694,
+            "score": 6
         },
         {
-            "title": "How much you think my laptop could sell for?",
-            "link": "https://i.redd.it/yqhvro2dmtab1.jpg",
-            "score": 184,
-            "sub": "computers"
+            "title": "Almost 90 percent of classic games are \u201ccritically endangered,\u201d say archivists",
+            "link": "https://www.theverge.com/2023/7/14/23792586/classic-game-preservation-video-game-history-foundation-esa",
+            "sub_score": 1712,
+            "sub": "technews",
+            "time": 68.68936982027778,
+            "subscribers": 680536,
+            "score": 5
         },
         {
-            "title": "As extreme heat gets worse, expert calls for access to cooling as a human right",
-            "link": "https://toronto.ctvnews.ca/as-extreme-heat-gets-worse-expert-calls-for-access-to-cooling-as-a-human-right-1.6470595",
-            "score": 3161,
-            "sub": "Futurology"
+            "title": "The FTC wants to make it easier to cancel subscriptions just as streamer cancellations are peaking \u2014 read how Disney, Netflix, and more are pushing back",
+            "link": "https://www.businessinsider.com/hollywood-streamers-oppose-ftc-proposal-regulation-click-to-cancel-subscription-2023-7",
+            "sub_score": 1640,
+            "sub": "technews",
+            "time": 76.56214759805555,
+            "subscribers": 680536,
+            "score": 5
         },
         {
-            "title": "A West Virginia researcher has built a large six-legged insectoid robot modeled on a fruit fly.",
-            "link": "https://www.inceptivemind.com/researchers-build-big-robot-bugs-walk-like-real-insects/?utm_source=rss&utm_medium=rss&utm_campaign=researchers-build-big-robot-bugs-walk-like-real-insects",
-            "score": 550,
-            "sub": "Futurology"
+            "title": "Get ready for light-based Wi-Fi, because it's now an official standard",
+            "link": "https://www.androidpolice.com/light-based-wi-fi-official-standard/",
+            "sub_score": 1331,
+            "sub": "technews",
+            "time": 85.64548093138889,
+            "subscribers": 680536,
+            "score": 5
         },
         {
-            "title": "AI likely to spell end of traditional school classroom, leading expert says | Artificial intelligence (AI)",
-            "link": "https://www.theguardian.com/technology/2023/jul/07/ai-likely-to-spell-end-of-traditional-school-classroom-leading-expert-says",
-            "score": 210,
-            "sub": "Futurology"
+            "title": "Infrared may no longer be a punchline, as IEEE approves 9.6Gbps wireless light",
+            "link": "https://www.theverge.com/23795599/li-fi-wi-fi-802-11-bb-internet-of-light",
+            "sub_score": 1210,
+            "sub": "tech",
+            "time": 81.39920307972223,
+            "subscribers": 575694,
+            "score": 5
+        },
+        {
+            "title": "Mechanical neural network: New material can learn and change physical properties",
+            "link": "https://www.freethink.com/science/mechanical-neural-network?utm_term=Autofeed&utm_campaign=echobox_freethink&utm_medium=Social&utm_source=Facebook&fbclid=IwAR0PFPb4Wo-kC8Dc5QyyodwnkCagr_x1o0doUVspqrJsSrYrOP0VIoFGCh0#Echobox=1688998775",
+            "sub_score": 1298,
+            "sub": "tech",
+            "time": 138.04614752416668,
+            "subscribers": 575694,
+            "score": 3
+        },
+        {
+            "title": "Instead of one autonomous robot to fly, another to drive on land and one more to navigate on water, a new hybrid drone can do all three. To carry out complex missions, scientists are increasingly experimenting with drones that can do more than just fly.",
+            "link": "https://spectrum.ieee.org/climate-change-drone",
+            "sub_score": 1143,
+            "sub": "tech",
+            "time": 160.7572586352778,
+            "subscribers": 575694,
+            "score": 3
+        },
+        {
+            "title": "All smartphones, including iPhones, must have replaceable batteries by 2027 in the EU",
+            "link": "https://mashable.com/article/replaceable-batteries-smartphones-iphones-2027",
+            "sub_score": 4277,
+            "sub": "technews",
+            "time": 74.90815676333332,
+            "subscribers": 680536,
+            "score": 2
+        },
+        {
+            "title": "A Proposed Law Would Force Internet Companies to Spy on Their Users for the DEA | The Cooper Davis Act would force tech companies to report suspected drug activity to the government. Experts say it would be a disaster for digital privacy.",
+            "link": "https://gizmodo.com/cooper-davis-act-drugs-companies-report-users-1850510171",
+            "sub_score": 2060,
+            "sub": "technews",
+            "time": 119.86825870916667,
+            "subscribers": 680536,
+            "score": 2
+        },
+        {
+            "title": "Chinese hackers raided US government email accounts by exploiting Microsoft cloud bug",
+            "link": "https://techcrunch.com/2023/07/12/chinese-hackers-us-government-microsoft-email/",
+            "sub_score": 2010,
+            "sub": "technews",
+            "time": 135.88659204249998,
+            "subscribers": 680536,
+            "score": 2
+        },
+        {
+            "title": "It's official: Smartphones will need to have replaceable batteries by 2027",
+            "link": "https://www.androidauthority.com/phones-with-replaceable-batteries-2027-3345155/",
+            "sub_score": 3396,
+            "sub": "technews",
+            "time": 109.6565920425,
+            "subscribers": 680536,
+            "score": 1
+        },
+        {
+            "title": "After 30 Years, Linux Finally Hits 3% Market Share",
+            "link": "https://linuxiac.com/linux-hits-3-percent-market-share/",
+            "sub_score": 3070,
+            "sub": "technews",
+            "time": 147.23436982027778,
+            "subscribers": 680536,
+            "score": 1
         }
     ]
 }

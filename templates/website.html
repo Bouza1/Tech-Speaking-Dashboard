@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
-{% block title %}Fresh Content{% endblock %}
-{% block extra_stryle %}<link rel="stylesheet" href="{{ url_for('static', filename='content.css') }}">{% endblock %}
+{% block title %}Live Website{% endblock %}
+{% block extra_stryle %}<link rel="stylesheet" href="{{ url_for('static', filename='website.css') }}">{% endblock %}
 {% block content %}
 
 <div class="container">
@@ -19,9 +19,15 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-xl-6 col-md-12 col-sm-12">
+    </div>        
+    <h5 class="text-center">Live Articles</h5>
+    <div class="row" id="content"></div>
+
+
+
+
+    <!-- <div class="row"> -->
+        <!-- <div class="col-xl-6 col-md-12 col-sm-12">
             <div class="container p-3 shadow mb-2 bg-body rounded">
                 <h5 class="text-center">Fresh Content</h5>
                 <div class="container overflow-scroll" style="height:26rem;">
@@ -37,8 +43,9 @@
                     </table>
                 </div>
             </div>
-        </div>
-        <div class="col-xl-6 col-md-12 col-sm-12">
+        </div> -->
+
+        <!-- <div class="col-xl-6 col-md-12 col-sm-12">
             <div class="container p-3 shadow mb-2 bg-body rounded">
                 <h5 class="text-center">Rewrite Article</h5>
                 <div class="container my-2">
@@ -88,12 +95,12 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-    </div>
+    <!-- </div> -->
 </div>
 
 
 
 {% endblock %}
-{% block jscript %}<script src="{{url_for('static', filename='content.js')}}"></script> {% endblock %}
+{% block jscript %}<script src="{{url_for('static', filename='website.js')}}"></script>{% endblock %}

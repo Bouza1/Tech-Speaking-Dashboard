@@ -58,8 +58,6 @@ def decision_maker(result, json_url, scenario, test):
     update_last_ran(json_url, test, fomatted_result['date'])
     if result['failed'] != []:
        failed_tests_output(result['failed'], json_url)
-    
-
 
 def failed_tests_output(results, json_url):
     fail_obj = {'id':return_new_id(json_url)-1, 'tests':[]} # has to be minus one because the object is already appended so just need the len of latest_results and not the +1 used in id

@@ -8,10 +8,14 @@ def format_article_obj(unformatted, json_url):
     "content":unformatted['content'],
     "imagelink":unformatted['imagelink'],
     "livelink": "https://techspeaking.s4820791.repl.co/news/article/" + str(id),
-    "instagram": 0,
+    "linkedin": 0,
     "scheduled": 0,
     "like":0,
-    "dislike":0
+    "dislike":0,
+    "social_post_text": "",
+    "instagram": 0,
+    "facebook": 0,
+    "twitter": 0
   }
   return formatted_article
 

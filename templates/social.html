@@ -5,25 +5,19 @@
 {% block content %}
 <div class="container">
     <div class="row">
-        <div class="col-xl-8 col-md-12 col-sm-12">
+        <div class="col-12">
             <div class="container p-3 shadow my-2 rounded">
                 <h5 class="text-center">Live Articles</h5>
-                <table class="table table-hover">
-                    <thead>
-                        <tr>
-                            <th scope="col">Article</th>
-                            <th scope="col"></th>
-                            <th scope="col"></th>
-                        </tr>
-                    </thead>
-                    <tbody id="tBody">
-                    </tbody>
-                </table>
+                <div class="container overflow-scroll" style="height:39rem;">
+                    <table class="table table-hover">
+                        <tbody id="tBody">
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
 </div>
-
 
 <div class="modal" tabindex="-1" id="exampleModal">
     <div class="modal-dialog modal-xl">
@@ -43,6 +37,7 @@
             <div class="modal-footer">
                 <div id="show-hide">
                     <button type="button" class="btn btn-md btn-outline-info" id="post_social_btn">Post</button>
+                    <button type="button" class="btn btn-md btn-outline-warning" id="edit_social_img">Edit Image</button>
                 </div>
             </div>
         </div>

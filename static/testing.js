@@ -93,6 +93,7 @@ run_test_btn.addEventListener('click', function(){
     let test_obj = get_test_deets()
     console.log(test_obj)
     disable_test_btn()
+    show_alert("warning", "Test Running.....")
     send_test_2_run_2_server(test_obj)
 })
 

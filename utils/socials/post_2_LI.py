@@ -12,6 +12,7 @@ load_dotenv('deets.env')
 
 def construct_driver():
     chrome_options = Options()
+    chrome_options.headless = True
     driver = webdriver.Chrome(options=chrome_options)
     return driver
 

@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}Image Creator{% endblock %}
+{% block extra_stryle %}<link rel="stylesheet" href="{{ url_for('static', filename='img_view.css') }}">{% endblock %}
+{% block content %}
+
+<div class="container my-3">
+    <p id="hidden_id">"{{article['id']}}"</p>
+    <div class="row">
+        <div class="col-12 d-flex align-content-center">
+            <div class="thumbnail w-75 g-0"> 
+                <div id="screenshot_me">
+                    <img class="img-fluid w-100 mb-0" src="{{article['imagelink']}}">
+                    <div class="caption bg-dark w-100 mt-0">
+                        <h3 class="text-white text-center" id="bug-jinja-title" contenteditable >"{{article['title']}}"</h3>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<button type="button" class="btn btn-sm btn-outline-prinary" id="screenshot_btn">Save</button>
+
+
+{% endblock %}
+{% block jscript %}<script src="{{url_for('static', filename='img_view.js')}}"></script> {% endblock %}

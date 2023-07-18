@@ -8,6 +8,7 @@ import json
 
 def construct_driver():
     chrome_options = Options()
+    chrome_options.add_argument("--headless=new")
     driver = webdriver.Chrome(options=chrome_options)
     return driver
 
@@ -57,13 +58,10 @@ def submit_repair_form(driver):
     submit_btn.click();
 
 def click_alert(driver, testcase):
-    alert = driver.switch_to.alert
-    alert_text = alert.text
-    if testcase['expected_alert'] in alert_text:
-        alert.accept()
+    alert = driver.find_element(By.ID, "alert_text")
+    if testcase['expected_alert'] in alert.text:
         return {"scenario id":testcase['id'], "scenario":testcase['scenario'], "status":"Passed"}
     else:
-        alert.accept()
         return {"id":testcase['id'], "scenario":testcase['scenario'], "status":"Failed"}
 
 def full_script(driver, testcase):

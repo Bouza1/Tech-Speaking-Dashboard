@@ -13,3 +13,8 @@ utils/testing/__pycache__/repair_form_testcases.cpython-310.pyc
 utils/testing/__pycache__/repair_form.cpython-310.pyc
 utils/testing/__pycache__/test_suite_server.cpython-310.pyc
 utils/testing/__pycache__/user_functions.cpython-310.pyc
+utils/__pycache__/edit_photos.cpython-310.pyc
+static/aritcle_imgs_social/
+utils/socials/__pycache__/edit_photos.cpython-310.pyc
+.gitignore
+
