@@ -41,23 +41,3 @@ def full_script_upload(site_root):
     upload_file(driver, file)
     time.sleep(1)
     driver.quit()
-
-
-# def post_da_post(driver, article):
-#     firstPostBtn = driver.find_element(By.XPATH, "//span[text()='Start a post']")
-#     firstPostBtn.click()
-#     time.sleep(4)
-#     textArea = driver.find_element(By.XPATH, "//div[@role='textbox']")
-#     textArea.click()
-#     textArea.send_keys(article['title'])
-#     textArea.send_keys(Keys.ENTER)
-#     textArea.send_keys(Keys.ENTER)
-#     textArea.send_keys(article['content'])
-#     textArea.send_keys(Keys.ENTER)
-#     textArea.send_keys(Keys.ENTER)
-#     textArea.send_keys("Read More: " + article['article_link'])
-#     time.sleep(20)
-#     submitBtn = driver.find_element(By.XPATH, "//span[text()='Post']")
-#     submitBtn.click()
-#     time.sleep(15)
-#     return post_successful(driver)
