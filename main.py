@@ -184,8 +184,8 @@ def return_object_using_id(id):
         article =  news_articles[i]
   return article
 
-
-app.run(host='0.0.0.0', port=81)
+if name == (__main__):
+    app.run(host='0.0.0.0', port=81)
 
 
 
